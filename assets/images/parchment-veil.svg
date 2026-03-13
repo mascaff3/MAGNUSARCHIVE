@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 1200" preserveAspectRatio="none">
+  <defs>
+    <linearGradient id="wash" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#efe4ca" stop-opacity=".14"/>
+      <stop offset="40%" stop-color="#c9b891" stop-opacity=".08"/>
+      <stop offset="100%" stop-color="#3b3428" stop-opacity=".04"/>
+    </linearGradient>
+    <filter id="grain">
+      <feTurbulence type="fractalNoise" baseFrequency="0.9" numOctaves="2" seed="7"/>
+      <feColorMatrix type="saturate" values="0"/>
+      <feComponentTransfer>
+        <feFuncA type="table" tableValues="0 0 .05 .08"/>
+      </feComponentTransfer>
+    </filter>
+  </defs>
+  <rect width="1200" height="1200" fill="url(#wash)"/>
+  <rect width="1200" height="1200" filter="url(#grain)" opacity=".75"/>
+  <g fill="none" stroke="#e5d5b3" stroke-opacity=".08">
+    <path d="M0 90C120 110 200 140 286 122s153-70 240-56 161 84 262 82 165-48 238-62 118-14 174 2"/>
+    <path d="M0 410c91-34 194-42 291-20s178 74 270 74 177-50 262-78 217-38 377 30"/>
+    <path d="M0 812c118 28 188 64 282 54s188-72 283-72 166 54 260 76 204 10 375-52"/>
+  </g>
+  <g fill="#f5e8cb" fill-opacity=".04">
+    <ellipse cx="168" cy="206" rx="126" ry="88"/>
+    <ellipse cx="906" cy="262" rx="182" ry="92"/>
+    <ellipse cx="354" cy="912" rx="202" ry="118"/>
+    <ellipse cx="988" cy="870" rx="142" ry="78"/>
+  </g>
+</svg>

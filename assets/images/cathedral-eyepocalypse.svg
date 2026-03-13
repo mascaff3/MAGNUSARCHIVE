@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 700">
+  <defs>
+    <radialGradient id="rupture" cx="50%" cy="32%" r="54%">
+      <stop offset="0%" stop-color="#e6ffd8" stop-opacity=".34"/>
+      <stop offset="45%" stop-color="#83d691" stop-opacity=".16"/>
+      <stop offset="100%" stop-color="#09100b" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="900" height="700" fill="#071009"/>
+  <rect width="900" height="700" fill="url(#rupture)"/>
+  <g fill="none" stroke="#c6bb92" stroke-opacity=".22" stroke-width="5">
+    <path d="M126 632V242c0-86 64-152 146-152s146 66 146 152v390"/>
+    <path d="M482 632V196c0-114 88-204 204-204s204 90 204 204v436"/>
+  </g>
+  <g transform="translate(450 290)">
+    <ellipse rx="236" ry="124" fill="none" stroke="#edf0df" stroke-opacity=".46" stroke-width="6"/>
+    <ellipse rx="156" ry="82" fill="none" stroke="#edf0df" stroke-opacity=".28" stroke-width="5"/>
+    <circle r="70" fill="#79c487" fill-opacity=".22"/>
+    <ellipse rx="22" ry="52" fill="#040705"/>
+    <g stroke="#d7f6dd" stroke-opacity=".3" stroke-width="3">
+      <line x1="-236" y1="0" x2="236" y2="0"/>
+      <line x1="0" y1="-124" x2="0" y2="124"/>
+      <line x1="-166" y1="-92" x2="166" y2="92"/>
+      <line x1="-166" y1="92" x2="166" y2="-92"/>
+    </g>
+  </g>
+  <g stroke="#7de296" stroke-opacity=".26" stroke-width="2">
+    <path d="M0 146c186 44 266 74 380 52s212-90 342-86 256 52 438 140"/>
+    <path d="M0 522c160-34 278-54 408-22s236 94 364 94 236-44 388-118"/>
+  </g>
+</svg>

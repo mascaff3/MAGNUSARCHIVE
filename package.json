@@ -1,0 +1,21 @@
+{
+  "name": "archive-survival",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "packageManager": "pnpm@10.32.1",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "macos:build": "zsh macos/build-macos-app.sh"
+  },
+  "pnpm": {
+    "onlyBuiltDependencies": [
+      "esbuild"
+    ]
+  },
+  "devDependencies": {
+    "vite": "^7.1.5"
+  }
+}

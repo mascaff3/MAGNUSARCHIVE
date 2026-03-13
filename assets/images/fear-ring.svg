@@ -1,0 +1,113 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 1200">
+  <defs>
+    <filter id="softGlow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="10" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+
+  <g fill="none" stroke-linecap="round" stroke-linejoin="round" filter="url(#softGlow)">
+    <circle cx="600" cy="600" r="418" stroke="#dbe8d7" stroke-opacity=".12" stroke-width="2"/>
+    <circle cx="600" cy="600" r="472" stroke="#dbe8d7" stroke-opacity=".06" stroke-width="2"/>
+
+    <g transform="translate(600 126)" stroke="#7ee18d" stroke-width="18">
+      <circle r="54" stroke-opacity=".34"/>
+      <path d="M0 -46v92M-46 0h92M-34 -34l68 68M34 -34l-68 68" stroke-opacity=".92"/>
+    </g>
+
+    <g transform="translate(794 167)" stroke="#e8c77f" stroke-width="16">
+      <circle r="54" stroke-opacity=".34"/>
+      <path d="M0 -42C22 -32 36 -12 36 10C36 34 18 50 0 58C-18 50 -36 34 -36 10C-36 -12 -22 -32 0 -42Z" stroke-opacity=".92"/>
+      <path d="M0 -10V28" stroke-opacity=".92"/>
+    </g>
+
+    <g transform="translate(968 286)" stroke="#86a8ff" stroke-width="16">
+      <circle r="54" stroke-opacity=".34"/>
+      <path d="M-30 -30C12 -42 42 -18 34 12C26 42 -2 48 -26 36C-50 24 -52 -10 -30 -30Z" stroke-opacity=".92"/>
+      <path d="M-20 18C-2 4 18 -4 34 -2" stroke-opacity=".92"/>
+    </g>
+
+    <g transform="translate(1074 468)" stroke="#ff8f7f" stroke-width="16">
+      <circle r="54" stroke-opacity=".34"/>
+      <path d="M0 -46C24 -22 32 -2 24 18C18 34 6 46 0 56C-6 46 -18 34 -24 18C-32 -2 -24 -22 0 -46Z" stroke-opacity=".92"/>
+    </g>
+
+    <g transform="translate(1112 676)" stroke="#ffd966" stroke-width="16">
+      <circle r="54" stroke-opacity=".34"/>
+      <path d="M-34 -18L0 -48L34 -18V30C18 40 -18 40 -34 30Z" stroke-opacity=".92"/>
+      <path d="M0 -10V26" stroke-opacity=".92"/>
+    </g>
+
+    <g transform="translate(1074 882)" stroke="#ff6f6f" stroke-width="16">
+      <circle r="54" stroke-opacity=".34"/>
+      <path d="M-34 -30L34 38" stroke-opacity=".92"/>
+      <path d="M12 -40L40 -12" stroke-opacity=".92"/>
+      <path d="M-40 12L-12 40" stroke-opacity=".92"/>
+    </g>
+
+    <g transform="translate(968 1062)" stroke="#f1f1dc" stroke-width="16">
+      <circle r="54" stroke-opacity=".34"/>
+      <path d="M-32 24V-18L0 -38L32 -18V24" stroke-opacity=".92"/>
+      <path d="M-12 -2C-6 12 6 12 12 -2" stroke-opacity=".92"/>
+    </g>
+
+    <g transform="translate(794 1182)" stroke="#d49a84" stroke-width="16">
+      <circle r="54" stroke-opacity=".34"/>
+      <path d="M-26 -12C-8 -42 8 -42 26 -12C26 16 10 34 0 50C-10 34 -26 16 -26 -12Z" stroke-opacity=".92"/>
+      <path d="M-18 10C-8 4 8 4 18 10" stroke-opacity=".92"/>
+    </g>
+
+    <g transform="translate(600 1226)" stroke="#8acdbf" stroke-width="16">
+      <circle r="54" stroke-opacity=".34"/>
+      <path d="M-40 20C-18 -36 18 -36 40 20" stroke-opacity=".92"/>
+      <path d="M-22 18V-8M0 18V-18M22 18V-8" stroke-opacity=".92"/>
+    </g>
+
+    <g transform="translate(406 1182)" stroke="#7fd9ff" stroke-width="16">
+      <circle r="54" stroke-opacity=".34"/>
+      <path d="M-34 14C-14 -24 14 -24 34 14" stroke-opacity=".92"/>
+      <path d="M-38 28C-14 6 14 6 38 28" stroke-opacity=".92"/>
+    </g>
+
+    <g transform="translate(232 1062)" stroke="#e1a85f" stroke-width="16">
+      <circle r="54" stroke-opacity=".34"/>
+      <path d="M-8 -34L8 -34L24 -8L14 24L0 44L-14 24L-24 -8Z" stroke-opacity=".92"/>
+      <path d="M0 44V16" stroke-opacity=".92"/>
+    </g>
+
+    <g transform="translate(126 882)" stroke="#b7c8ff" stroke-width="16">
+      <circle r="54" stroke-opacity=".34"/>
+      <path d="M-30 -8C-14 -34 14 -34 30 -8C18 8 12 22 0 40C-12 22 -18 8 -30 -8Z" stroke-opacity=".92"/>
+      <path d="M-16 0C-6 6 6 6 16 0" stroke-opacity=".92"/>
+    </g>
+
+    <g transform="translate(88 676)" stroke="#9be06f" stroke-width="16">
+      <circle r="54" stroke-opacity=".34"/>
+      <path d="M-30 18C-18 -26 18 -26 30 18" stroke-opacity=".92"/>
+      <path d="M-24 -12L24 28" stroke-opacity=".92"/>
+      <path d="M24 -12L-24 28" stroke-opacity=".92"/>
+    </g>
+
+    <g transform="translate(126 468)" stroke="#5fa7ff" stroke-width="16">
+      <circle r="54" stroke-opacity=".34"/>
+      <path d="M0 -36C28 -36 36 -8 22 10C8 28 -8 30 -22 18C-36 6 -28 -36 0 -36Z" stroke-opacity=".92"/>
+      <path d="M-20 18C-8 4 8 -4 22 -2" stroke-opacity=".92"/>
+    </g>
+
+    <g transform="translate(232 286)" stroke="#7d6bff" stroke-width="16">
+      <circle r="54" stroke-opacity=".34"/>
+      <path d="M-24 -28C6 -44 30 -22 18 2C8 20 -10 20 -20 34C-24 10 -40 -12 -24 -28Z" stroke-opacity=".92"/>
+      <path d="M-20 10C-6 6 8 6 22 14" stroke-opacity=".92"/>
+    </g>
+
+    <g transform="translate(406 167)" stroke="#86ffa6" stroke-width="16">
+      <circle r="54" stroke-opacity=".34"/>
+      <path d="M-30 -10C-10 -34 10 -34 30 -10C22 14 10 30 0 48C-10 30 -22 14 -30 -10Z" stroke-opacity=".92"/>
+      <path d="M-16 -8L16 18" stroke-opacity=".92"/>
+      <path d="M16 -8L-16 18" stroke-opacity=".92"/>
+    </g>
+  </g>
+</svg>

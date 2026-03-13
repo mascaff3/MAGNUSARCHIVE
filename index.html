@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Archive Survival Prototype</title>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body class="app-loading">
+    <div id="boot-screen" class="boot-screen" aria-live="polite">
+      <div class="boot-fear-ring-wrap" aria-hidden="true">
+        <div id="boot-fear-ring" class="boot-fear-ring"></div>
+        <div class="boot-central-eye">
+          <div class="boot-central-eye-sclera"></div>
+          <div class="boot-central-eye-iris"></div>
+          <div class="boot-central-eye-pupil"></div>
+          <div class="boot-central-eye-lid upper"></div>
+          <div class="boot-central-eye-lid lower"></div>
+        </div>
+      </div>
+      <div class="boot-shell">
+        <p class="eyebrow">Intake</p>
+        <h1>Archive Survival</h1>
+        <p class="boot-copy">Opening the archive and preparing the next statement.</p>
+        <div class="boot-status">
+          <div class="boot-status-label">
+            <span id="boot-status-label">Preparing shell</span>
+            <span id="boot-progress-value" class="boot-progress-value">8%</span>
+          </div>
+          <div class="boot-meter" aria-hidden="true">
+            <span id="boot-progress-bar" style="--boot-progress:8%"></span>
+          </div>
+        </div>
+        <div id="boot-log" class="boot-log" aria-live="polite"></div>
+      </div>
+    </div>
+    <div id="app"></div>
+    <script src="/boot-loader.js"></script>
+    <script type="module" src="./src/main.js"></script>
+  </body>
+</html>
