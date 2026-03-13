@@ -1,7 +1,3 @@
-# Archive Survival Prototype
-
-Browser prototype for a Magnus Archives-inspired survival run built around rotating fear-specific minigames.
-
 The long-term premise is a run through archive statements where each fear domain can introduce its own rules, pacing, and interaction style.
 
 Current playable state:
